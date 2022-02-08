@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <title> addUser.html </title>
+ </head>
+ <body>
+ 	
+ 	<form method="post" action="addUser.jsp">
+	
+	<table width="700">
+		<tbody><tr><td style="text-align: left;">ㅇ개인정보</td>
+		<td style="text-align: right;"><a href="http://127.0.0.1:8080/homework02/homework/addUser.html">?</a>도움말</td>
+
+	</tr></tbody></table>
+ 
+ <hr width="700" color="blue" align="left" size="3/">
+   <table style="text-align:left">
+     <tbody><tr>
+		<th> *이름(한글실명) </th>
+		<td> <input type="text" name="name" size="20"> </td>
+	 </tr>
+	 
+	 <tr>
+		<th> *성별 </th>
+		<td> 
+			<input type="radio" name="gender" value="남"> 남
+			<input type="radio" name="gender" value="여"> 여 
+		</td>
+	 </tr>
+
+	 <tr>
+		<th> *생년월일 </th>
+		<td> <input type="text" name="birthyear" size="5"> 년
+			<select name="birthmonth">
+				<option value="１">1</option><option value="２">2</option><option value="３">3</option><option value="４">4</option>
+				<option value="５">5</option><option value="６">6</option><option value="７">7</option><option value="８">8</option>
+				<option value="９">9</option><option value="１０">10</option><option value="１１">11</option><option value="１２">12</option>
+			</select> 월
+			<select name="birthday">
+				<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="４">4</option>
+				<option value="５">5</option><option value="６">6</option><option value="７">7</option><option value="８">8</option>
+				<option value="９">9</option><option value="１０">10</option><option value="１１">11</option><option value="１２">12</option>
+				<option value="１３">13</option><option value="１４">14</option><option value="１５">15</option><option value="１６">16</option>
+				<option value="１７">17</option><option value="１８">18</option><option value="１９">19</option><option value="２０">20</option>
+				<option value="２１">21</option><option value="２２">22</option><option value="２３">23</option><option value="２４">24</option>
+				<option value="２５">25</option><option value="２６">26</option><option value="２７">27</option><option value="２８">28</option>
+				<option value="２９">29</option><option value="３０">30</option><option value="３１">31</option>
+				</select> 일
+		</td>
+	 </tr>
+
+	 <tr>
+	 <th> *연락처 </th>
+		<td> 
+			전화번호
+			<input type="text" name="phonnumber" size="12">
+		</td>
+	 </tr>
+	 
+	 <tr>
+	 <th> *거주지 주소 </th>
+		<td> 
+			<input type="text" name="address" size="55">
+		</td>
+	 </tr>
+		
+  </tbody></table> 
+  <table><tbody><tr>
+		
+		<td style="text-align: center;"><input type='submit' value='확인' /><input type='reset' value='취소 '/></td>
+	</tr></tbody>
+	</table>
+	</form>
+	</body>
+    

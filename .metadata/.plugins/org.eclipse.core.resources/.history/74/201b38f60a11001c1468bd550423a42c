@@ -1,0 +1,9 @@
+package jw04;
+
+public class UserVO {
+
+	public UserVO() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

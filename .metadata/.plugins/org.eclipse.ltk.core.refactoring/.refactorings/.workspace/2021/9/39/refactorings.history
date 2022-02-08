@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;02.Model2MVCShop(stu)2&apos; to &apos;02.Model2MVCShop(stu)&apos;" description="Rename resource &apos;02.Model2MVCShop(stu)2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/02.Model2MVCShop(stu)2" name="02.Model2MVCShop(stu)" stamp="1632447443899" updateReferences="true"/>
+</session>

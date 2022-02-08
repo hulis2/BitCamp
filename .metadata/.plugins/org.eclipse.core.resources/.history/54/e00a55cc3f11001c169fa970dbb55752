@@ -1,0 +1,18 @@
+package homework;
+
+public class PchVO {
+
+	private String name;
+	private String gender;
+	private String birthday;
+	private String phonnumber;
+	private String address;
+	private boolean active;
+	
+	
+	@Override
+	public String toString() {
+		return "UserVO [id=" +id+ ",pwd="+pwd+",active="+active+"]";
+	}
+
+}

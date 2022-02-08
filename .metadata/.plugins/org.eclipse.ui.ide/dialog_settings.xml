@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\bitcamp\mini_project\10\10.Model2MVCShop(Ajax)"/>
+			<item value="D:\bitcamp\mini_project\09.Model2MVCShop(jQuery)"/>
+			<item value="D:\bitcamp\mini_project\08\08.Model2MVCShop(RestFul Server)"/>
+			<item value="D:\bitcamp\mini_project\08\08.Model2MVCShop(RestFul Client)"/>
+			<item value="D:\bitcamp\mini_project\07\07.Model2MVCShop(URI,pattern)"/>
+			<item value="D:\bitcamp\mini_project\06\06.Model2MVCShop(Presentation+BusinessLogic)"/>
+			<item value="D:\bitcamp\mini_project\05\05.Model2MVCShop(AOP,Transaction)"/>
+			<item value="D:\bitcamp\mini_project\04\04.Model2MVCShop(Business Logic,MyBatis Spring)"/>
+			<item value="D:\bitcamp\mini_project\03.Model2MVCShop(EL,JSTL)"/>
+			<item value="C:\Users\AIA\Desktop\11.Model2MVCShop"/>
+			<item value="F:\bitcamp\down\0924\02.Model2MVCShop(Refactor &amp; Page Navigation)"/>
+			<item value="F:\bitcamp\down\Mini-PJT\01.Model2MVCShop(stu)"/>
+			<item value="C:\003edu"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

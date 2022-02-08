@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://127.0.0.1:5500/%EB%B0%95%EC%B2%A0%ED%99%8D_UI.html -->
+<html lang="UDF-8"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title> Html.html </title>
+ </head>
+ <body>
+	<table border="0" width="700">
+		<tbody><tr><td style="text-align: left;">ㅇ개인정보</td>
+		<td style="text-align: right;"><a href="http://127.0.0.1:5500/%EB%B0%95%EC%B2%A0%ED%99%8D_UI.html">?</a>도움말</td>
+
+	</tr></tbody></table>
+ 
+ <hr width="700" color="blue" align="left" size="3/">
+   <table border="0" style="text-align:left">
+     <tbody><tr>
+		<th> *이름(한글실명) </th>
+		<td> <input type="text" name="name" size="20"> </td>
+	 </tr>
+
+	 <tr>
+		<th><left> *성별 </left></th>
+		<td> 
+			<input type="radio" name="gender"> 남
+			<input type="radio" name="gender"> 여 
+		</td>
+	 </tr>
+
+	 <tr>
+		<th> *생년월일 </th>
+		<td> <input type="text" name="birthyear" size="5"> 년
+			<select name="birthmonth">
+				<option>선택</option>
+				<option>선택1</option>
+				<option>선택2</option>
+			</select> 월
+			<select name="birthday">
+				<option>선택</option>
+				<option>선택1</option>
+				<option>선택2</option>
+			</select> 일
+			<input type="radio" name="calendar"> 양력
+			<input type="radio" name="calendar"> 음력
+			(<input type="radio" name="intercalation"> 윤달) 
+		</td>
+	 </tr>
+
+	 <tr>
+	 <th> *최종학력 </th>
+		<td> 
+			<select name="education">
+				<option>선택하세요</option>
+				<option>선택하세요1</option>
+				<option>선택하세요2</option>
+			</select>
+		</td>
+	 </tr>
+	
+	 <tr>
+	 <th> *직업 </th>
+		<td>
+			<select name="job">
+				<option>선택하세요</option>
+				<option>선택하세요1</option>
+				<option>선택하세요2</option>
+			</select>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			소속
+			<input type="text" name="belong" size="20">
+		</td>
+	 </tr>
+
+	 <tr>
+	 <th> *결혼여부 </th>
+		<td> 
+			<input type="radio" name="marriage"> 미혼
+			<input type="radio" name="marriage"> 기혼
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			자녀수
+			&nbsp;&nbsp;&nbsp;
+			<select name="children">
+				<option>선택</option>
+				<option>선택1</option>
+				<option>선택2</option>
+			</select>명
+		</td>
+	 </tr>
+	 
+	 <tr>
+	 <th rowspan="3"> *연락처 </th>
+		<td> 
+			전화번호
+			<input type="text" name="phonnumber" size="3">-
+			<input type="text" name="phonnumber" size="4">-
+			<input type="text" name="phonnumber" size="4">
+			&nbsp;&nbsp;
+			<input type="radio" name="phonsite"> 집
+			<input type="radio" name="phonsite"> 직장
+		</td>
+	 </tr>
+	 
+	 <tr>
+		<td>
+			휴대폰&nbsp;&nbsp;&nbsp;
+			<input type="text" name="cellphonnumber" size="3">-
+			<input type="text" name="cellphonnumber" size="4">-
+			<input type="text" name="cellphonnumber" size="4">	
+			&nbsp;&nbsp;
+			이동통신사
+			<input type="radio" name="telecom"> SKT
+			<input type="radio" name="telecom"> KTF
+			<input type="radio" name="telecom"> LGT
+			&nbsp;&nbsp;
+		</td>
+	 </tr>
+	 
+	 <tr>
+		<td>
+			전화번호나 휴대폰번호 2가지 중 하나는 반드시 입력하셔야 합니다.
+		</td>
+	 </tr>
+	
+	 <tr>
+	 <th> *거주지 주소 </th>
+		<td> 
+			<input type="button" name="address" value="국내">
+			<input type="button" name="address" value="국외">
+			<input type="text" name="address" size="55">
+		</td>
+	 </tr>
+  </tbody></table>

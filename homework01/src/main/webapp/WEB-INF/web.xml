@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://Java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>homework</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+		<servlet-name>PchUI</servlet-name>
+		<servlet-class>homework.PchUI</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PchUI</servlet-name>
+		<url-pattern>/pchUI</url-pattern>
+	</servlet-mapping>
+	
+	<resource-ref>
+			<res-ref-name>jdbc/ora</res-ref-name>
+			<res-type>javax.sql.DataSource</res-type>
+			 <res-auth>Container</res-auth>
+	</resource-ref>
+			
+	<servlet>
+		<servlet-name>FirstServlet</servlet-name>
+		<servlet-class>homework.FirstServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FirstServlet</servlet-name>
+		<url-pattern>/FirstServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MultiCheck01</servlet-name>
+		<servlet-class>homework.MultiCheck01</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MultiCheck01</servlet-name>
+		<url-pattern>/MultiCheck01</url-pattern>
+	</servlet-mapping>
+	
+		
+</web-app>

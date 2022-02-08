@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://Java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+ <servlet>
+		<servlet-name>FirstServlet</servlet-name>
+		<servlet-class>FirstServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FirstServlet</servlet-name>
+		<url-pattern>/FirstServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ServletTest</servlet-name>
+		<servlet-class>ServletTest</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ServletTest</servlet-name>
+		<url-pattern>/ServletTest</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>HelloServletService</servlet-name>
+		<url-pattern>/HelloServletService</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>GetDataKrATagServletMapping</servlet-name>
+		<url-pattern>/GetDataKrATagServletMapping</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>PostDataATagServletMapping</servlet-name>
+		<url-pattern>/PostDataATagServletMapping</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MultiCheck03</servlet-name>
+		<servlet-class>jw02.MultiCheck03</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MultiCheck03</servlet-name>
+		<url-pattern>/MultiCheck03</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MultiCheck02</servlet-name>
+		<servlet-class>jw02.MultiCheck02</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MultiCheck02</servlet-name>
+		<url-pattern>/MultiCheck02</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MultiCheck01</servlet-name>
+		<servlet-class>jw02.MultiCheck01</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MultiCheck01</servlet-name>
+		<url-pattern>/MultiCheck01</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginBean</servlet-name>
+		<servlet-class>jw04.LoginBean</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginBean</servlet-name>
+		<url-pattern>/LoginBean</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoginBeanInitParam</servlet-name>
+		<servlet-class>jw04.LoginBeanInitParam</servlet-class>
+		<init-param>
+			<param-name>jdbcDriver</param-name>
+			<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+		</init-param>
+		<init-param>
+			<param-name>jdbcURL</param-name>
+			<param-value>jdbc:oracle:thin:@127.0.0.1:1521:xe</param-value>
+		</init-param>
+		<init-param>
+			<param-name>jdbcUser</param-name>
+			<param-value>scott</param-value>
+		</init-param>
+		<init-param>
+			<param-name>jdbcPasswd</param-name>
+			<param-value>tiger</param-value>
+		</init-param>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<servlet-name>LoginBeanInitParam</servlet-name>
+		<url-pattern>/LoginBeanInitParam</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoginBeanPool</servlet-name>
+		<servlet-class>jw04.LoginBeanPool</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LoginBeanPool</servlet-name>
+		<url-pattern>/LoginBeanPool</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoginBeanVoDao</servlet-name>
+		<servlet-class>jw04.LoginBeanVoDao</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LoginBeanVoDao</servlet-name>
+		<url-pattern>/LoginBeanVoDao</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>jw04.Login</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PostDataATagServletMapping</servlet-name>
+		<servlet-class>jw02.PostDataATagServletMapping</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>GetDataKrATagServletMapping</servlet-name>
+		<servlet-class>jw02.GetDataKrATagServletMapping</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>HelloServletService</servlet-name>
+		<servlet-class>HelloServletService</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>HelloServletServicedoGet</servlet-name>
+		<servlet-class>HelloServletServicedoGet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>HelloServletServicedoGet</servlet-name>
+		<url-pattern>/HelloServletServicedoGet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>HelloServletServicedoPost</servlet-name>
+		<servlet-class>HelloServletServicedoPost</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>HelloServletServicedoPost</servlet-name>
+		<url-pattern>/HelloServletServicedoPost</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GetDataKr</servlet-name>
+		<servlet-class>GetDataKr</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetDataKr</servlet-name>
+		<url-pattern>/GetDataKr</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>PostData</servlet-name>
+		<servlet-class>PostData</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PostData</servlet-name>
+		<url-pattern>/PostData</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

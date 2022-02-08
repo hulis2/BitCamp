@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://127.0.0.1:5500/%EB%B0%95%EC%B2%A0%ED%99%8D_UI.html -->
+<html lang="UDF-8"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title> pchUI.html </title>
+ </head>
+ <body>
+ 
+ 	<form method="post" action="../pchUI">
+	
+	<table border="0" width="700">
+		<tbody><tr><td style="text-align: left;">ㅇ개인정보</td>
+		<td style="text-align: right;"><a href="http://127.0.0.1:5500/pchUI.html">?</a>도움말</td>
+
+	</tr></tbody></table>
+ 
+ <hr width="700" color="blue" align="left" size="3/">
+   <table border="0" style="text-align:left">
+     <tbody><tr>
+		<th> *이름(한글실명) </th>
+		<td> <input type="text" name="name" size="20"> </td>
+	 </tr>
+
+	 <tr>
+		<th><left> *성별 </left></th>
+		<td> 
+			<input type="radio" name="gender"> 남
+			<input type="radio" name="gender"> 여 
+		</td>
+	 </tr>
+
+	 <tr>
+		<th> *생년월일 </th>
+		<td> <input type="text" name="birthday" size="5"> 년
+			<select name="birthday">
+				<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+				<option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option>
+			</select> 월
+			<select name="birthday">
+				<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+				<option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option>
+				<option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option>
+				<option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option>
+				<option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+				<option>31</option>
+				</select> 일
+		</td>
+	 </tr>
+
+	 <tr>
+	 <th> *연락처 </th>
+		<td> 
+			전화번호
+			<input type="text" name="phonnumber" size="3">-
+			<input type="text" name="phonnumber" size="4">-
+			<input type="text" name="phonnumber" size="4">
+		</td>
+	 </tr>
+	 
+	 <tr>
+	 <th> *거주지 주소 </th>
+		<td> 
+			<input type="button" name="address" value="국내">
+			<input type="button" name="address" value="국외">
+			<input type="text" name="address" size="55">
+		</td>
+	 </tr>
+		
+  </tbody></table>
+  <table border="0" width="700">
+		
+		<td style="text-align: center;"><input type='submit' value='확인' /><input type='reset' value='취소 '/></td>
+
+	</tr></tbody></table>
+    

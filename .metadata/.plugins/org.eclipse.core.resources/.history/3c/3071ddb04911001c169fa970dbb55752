@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://Java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>homework01</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  	<servlet>
+		<servlet-name>MultiCheck01</servlet-name>
+		<servlet-class>test.MultiCheck01</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MultiCheck01</servlet-name>
+		<url-pattern>/MultiCheck01</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>pchUI</servlet-name>
+		<servlet-class>homework.PchUI</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>pchUI</servlet-name>
+		<url-pattern>/pchUI</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
